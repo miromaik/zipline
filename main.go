@@ -30,7 +30,7 @@ func main() {
 	case "get", "receive":
 		if len(os.Args) < 3 {
 			fmt.Println("Error: code required")
-			fmt.Println("Usage: zl get <code>")
+			fmt.Println("Usage: zipline get <code>")
 			os.Exit(1)
 		}
 
@@ -74,15 +74,15 @@ func printUsage() {
 	fmt.Printf(`Zipline v%s - Secure P2P file transfer
 
 Usage:
-  zl send [file/folder]    Send file or folder
-  zl get <code>            Receive file with 6-digit code
-  zl relay [addr]          Run relay server
-  zl version               Show version
+  zipline send [file/folder]    Send file or folder
+  zipline get <code>            Receive file with 6-digit code
+  zipline relay [addr]          Run relay server
+  zipline version               Show version
 
 Examples:
-  zl send file.pdf
-  zl send ./folder
-  zl get 123456
+  zipline send file.pdf
+  zipline send ./folder
+  zipline get 123456
 
 `, version)
 }

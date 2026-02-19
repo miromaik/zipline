@@ -5,7 +5,13 @@ Secure P2P file transfer via 6-digit codes.
 ## Install
 
 ```bash
-go build -o zl
+curl -sSL https://raw.githubusercontent.com/yourusername/zipline/main/install.sh | bash
+```
+
+Or build from source:
+
+```bash
+go build -o zipline
 ```
 
 ## Usage
@@ -13,19 +19,19 @@ go build -o zl
 **Send:**
 
 ```bash
-zl send file.pdf
+zipline send file.pdf
 ```
 
 **Receive:**
 
 ```bash
-zl get 123456
+zipline get 123456
 ```
 
 **Relay Server:**
 
 ```bash
-zl relay
+zipline relay
 ```
 
 ## How it works

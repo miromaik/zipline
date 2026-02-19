@@ -1,14 +1,13 @@
 .PHONY: build clean install test run-relay
 
 build:
-	go build -o zl
-	cp zl zipline
+	go build -o zipline
 
 install:
 	go install
 
 clean:
-	rm -f zl zipline zipline-* zl-* *.exe
+	rm -f zipline zipline-* *.exe
 
 test:
 	go test -v ./...
