@@ -1,0 +1,5 @@
+zipline
+*.exe
+*.test
+*.out
+dist/
