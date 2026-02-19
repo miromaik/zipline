@@ -45,8 +45,5 @@ zipline relay
 
 - AES-GCM encryption
 - Key derived from 6-digit code via SHA-256
-- ⚠️ Use longer codes for production
 
-## License
-
-MIT
+*Like this tool? Give a ⭐️*
