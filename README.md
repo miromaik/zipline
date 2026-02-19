@@ -1,7 +1,3 @@
-# Zipline
-
-Secure P2P file transfer via 6-digit codes.
-
 ## Install
 
 ```bash
