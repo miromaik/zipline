@@ -11,16 +11,19 @@ go build -o zl
 ## Usage
 
 **Send:**
+
 ```bash
 zl send file.pdf
 ```
 
 **Receive:**
+
 ```bash
 zl get 123456
 ```
 
 **Relay Server:**
+
 ```bash
 zl relay
 ```
