@@ -1,5 +1,7 @@
+zl
 zipline
 *.exe
 *.test
 *.out
+*.txt
 dist/
